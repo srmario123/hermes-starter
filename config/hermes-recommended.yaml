@@ -1,0 +1,30 @@
+# hermes-starter: plantilla de configuración recomendada
+# Copia las secciones relevantes a ~/.hermes/config.yaml
+
+# ── Proveedor LLM ──────────────────────────────────────────
+# Opción A: OmniRoute (self-hosted, recomendado)
+# providers:
+#   omniroute:
+#     base_url: https://tu-instancia-omniroute/v1
+#     key_env: OMNIROUTE_API_KEY
+
+# Opción B: Anthropic directo
+# providers:
+#   anthropic:
+#     key_env: ANTHROPIC_API_KEY
+
+# ── Modelo por defecto ─────────────────────────────────────
+# model: claude/claude-sonnet-4-6
+
+# ── MCP Servers ────────────────────────────────────────────
+# mcp_servers:
+#   hostinger:
+#     command: node
+#     args: ["/ruta/a/@hostinger/mcp/src/servers/all.js"]
+#     env:
+#       HOSTINGER_API_TOKEN: tu_token
+
+# ── Configuraciones recomendadas ───────────────────────────
+# settings:
+#   language: es
+#   confirm_destructive: true
